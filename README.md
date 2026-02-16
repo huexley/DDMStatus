@@ -4,9 +4,7 @@ A lightweight macOS menu bar app that displays **Apple DDM (Declarative Device M
 
 Built for Mac admins who deploy OS updates via DDM through Jamf Pro, Mosyle, Fleet, or any MDM that supports Apple's DDM framework.
 
-![macOS 13+](https://img.shields.io/badge/macOS-13%2B-blue)
-![Swift 5.9](https://img.shields.io/badge/Swift-5.9-orange)
-![License MIT](https://img.shields.io/badge/License-MIT-green)
+![macOS 13+](https://img.shields.io/badge/macOS-13%2B-blue) ![Swift 5.9](https://img.shields.io/badge/Swift-5.9-orange) ![License MIT](https://img.shields.io/badge/License-MIT-green)
 
 ## What it does
 
@@ -19,10 +17,26 @@ DDMStatusApp sits in the menu bar and shows:
 
 ## Screenshot
 
-<img width="335" height="429" alt="Capture d’écran 2026-02-16 à 16 19 44" src="https://github.com/user-attachments/assets/b846e87a-1812-488d-878c-98feda3378fb" />
-
-
-
+```
+┌──────────────────────────────────┐
+│ ↓  Update required               │
+│    Installed: 15.3               │
+│ ────────────────────────────────  │
+│ ┌ Update ──────────────────────┐ │
+│ │ Required version       15.4  │ │
+│ │ Deadline    Mar 13, 2026     │ │
+│ │ Days remaining           25  │ │
+│ │ ✓ Update downloaded          │ │
+│ └──────────────────────────────┘ │
+│ ┌ System ──────────────────────┐ │
+│ │ ✓ Disk space   120.3 GB     │ │
+│ │ ✓ Last reboot  2 day(s) ago │ │
+│ └──────────────────────────────┘ │
+│ ────────────────────────────────  │
+│ [ Open Software Update        ]  │
+│ [📞] [✉] [🌐]            [↻]  │
+│          IT Support              │
+└──────────────────────────────────┘
 ```
 
 ## Requirements
